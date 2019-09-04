@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/superlanding/superjs/issues"
   },
-  "homepage": "https://github.com/superlanding/superjs#readme"
+  "homepage": "https://github.com/superlanding/superjs#readme",
+  "devDependencies": {
+    "lerna": "^3.16.4"
+  }
 }
