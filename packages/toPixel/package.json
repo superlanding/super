@@ -1,0 +1,14 @@
+{
+  "name": "@superlanding/topixel",
+  "version": "0.0.2",
+  "description": "",
+  "main": "toPixel.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "MIT"
+}
