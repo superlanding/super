@@ -1,3 +1,3 @@
-export default function isServer() {
-  return (typeof window === 'undefined')
-}
+const isServer = (typeof window === 'undefined')
+
+export default isServer
