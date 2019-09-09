@@ -2,7 +2,7 @@
   "name": "@superlanding/isclient",
   "version": "0.0.4",
   "description": "",
-  "main": "isServer.js",
+  "main": "isClient.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
