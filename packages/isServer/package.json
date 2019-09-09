@@ -1,0 +1,14 @@
+{
+  "name": "@superlanding/isserver",
+  "version": "0.0.3",
+  "description": "",
+  "main": "isServer.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  }
+}
