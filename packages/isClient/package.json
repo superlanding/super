@@ -1,6 +1,6 @@
 {
   "name": "@superlanding/isclient",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "",
   "main": "isClient.js",
   "scripts": {
