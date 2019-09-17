@@ -1,0 +1,14 @@
+{
+  "name": "@superlanding/addprefix",
+  "version": "0.0.8",
+  "description": "",
+  "main": "addPrefix.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "MIT"
+}
