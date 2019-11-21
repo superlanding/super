@@ -1,6 +1,6 @@
 {
   "name": "@superlanding/promisefinallypolyfill",
-  "version": "0.0.10",
+  "version": "0.0.11",
   "description": "",
   "main": "promise-finally-polyfill.js",
   "scripts": {
