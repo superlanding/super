@@ -1,0 +1,15 @@
+{
+  "name": "@superlanding/getscrollleft",
+  "version": "0.0.11",
+  "description": "",
+  "main": "getScrollLeft.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "MIT",
+  "gitHead": "c62418f585e73e04666c1f3d20f133ad6a55920d"
+}
