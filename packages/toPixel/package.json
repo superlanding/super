@@ -1,6 +1,6 @@
 {
   "name": "@superlanding/topixel",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "description": "",
   "main": "toPixel.js",
   "scripts": {
