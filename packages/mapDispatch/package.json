@@ -1,0 +1,14 @@
+{
+  "name": "@superlanding/mapdispatch",
+  "version": "0.0.12",
+  "description": "",
+  "main": "mapDispatch.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "MIT"
+}
