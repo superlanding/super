@@ -1,0 +1,14 @@
+{
+  "name": "@superlanding/commaseparate",
+  "version": "0.0.13",
+  "description": "",
+  "main": "commaSeparate.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "MIT"
+}
