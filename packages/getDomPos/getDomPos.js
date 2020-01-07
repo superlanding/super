@@ -1,10 +1,9 @@
 export default function getDomPos(dom) {
-  let x = 0
-  let y = 0
-  while (dom) {
-    x += dom.offsetLeft - dom.scrollLeft + dom.clientLeft
-    y += dom.offsetTop - dom.scrollTop + dom.clientTop
-    dom = dom.offsetParent
+  const rect = dom.getBoundingClientRect()
+  const scrollLeft = window.pageXOffset || document.documentElement.scrollLeft
+  const scrollTop = window.pageYOffset || document.documentElement.scrollTop
+  return {
+    x: rect.left + scrollLeft,
+    y: rect.top + scrollTop
   }
-  return { x, y }
 }
