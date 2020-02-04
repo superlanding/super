@@ -1,0 +1,14 @@
+{
+  "name": "@superlanding/datetotimestamp",
+  "version": "0.0.16",
+  "description": "",
+  "main": "dateToTimestamp.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  }
+}
