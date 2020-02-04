@@ -1,6 +1,6 @@
 {
   "name": "@superlanding/getchinesediscount",
-  "version": "0.0.17",
+  "version": "0.0.18",
   "description": "",
   "main": "getChineseDiscount.js",
   "scripts": {
