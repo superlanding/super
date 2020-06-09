@@ -1,0 +1,14 @@
+{
+  "name": "@superlanding/toint",
+  "version": "0.0.20",
+  "description": "",
+  "main": "toInt.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "publishConfig": {
+    "access": "public"
+  },
+  "license": "MIT"
+}
