@@ -4,7 +4,8 @@
   "description": "A collection of utility libraries used by superlanding JS projects.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "lerna exec --parallel 'babel *.js --out-dir dist --config-file ../../.babelrc.json'"
   },
   "repository": {
     "type": "git",
@@ -17,6 +18,9 @@
   },
   "homepage": "https://github.com/superlanding/superjs#readme",
   "devDependencies": {
+    "@babel/cli": "7.10.3",
+    "@babel/core": "7.10.3",
+    "@babel/preset-env": "7.10.3",
     "lerna": "^3.16.4"
   }
 }
