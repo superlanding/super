@@ -2,7 +2,7 @@
   "name": "@superlanding/topromise",
   "version": "0.0.21",
   "description": "",
-  "main": "toPromise.js",
+  "main": "dist/toPromise.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

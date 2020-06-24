@@ -2,7 +2,7 @@
   "name": "@superlanding/getapstr",
   "version": "0.0.21",
   "description": "",
-  "main": "getApStr.js",
+  "main": "dist/getApStr.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

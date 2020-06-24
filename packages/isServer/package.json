@@ -2,7 +2,7 @@
   "name": "@superlanding/isserver",
   "version": "0.0.21",
   "description": "",
-  "main": "isServer.js",
+  "main": "dist/isServer.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

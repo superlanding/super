@@ -2,7 +2,7 @@
   "name": "@superlanding/addprefix",
   "version": "0.0.21",
   "description": "",
-  "main": "addPrefix.js",
+  "main": "dist/addPrefix.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

@@ -2,7 +2,7 @@
   "name": "@superlanding/datetotimestamp",
   "version": "0.0.21",
   "description": "",
-  "main": "dateToTimestamp.js",
+  "main": "dist/dateToTimestamp.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

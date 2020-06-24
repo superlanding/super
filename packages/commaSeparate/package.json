@@ -2,7 +2,7 @@
   "name": "@superlanding/commaseparate",
   "version": "0.0.21",
   "description": "",
-  "main": "commaSeparate.js",
+  "main": "dist/commaSeparate.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
