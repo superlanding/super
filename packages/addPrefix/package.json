@@ -1,6 +1,6 @@
 {
   "name": "@superlanding/addprefix",
-  "version": "0.0.21",
+  "version": "0.0.22",
   "description": "",
   "main": "dist/addPrefix.js",
   "scripts": {
