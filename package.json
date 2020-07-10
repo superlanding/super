@@ -23,7 +23,9 @@
         "packages/**/*.js"
       ]
     },
-    "required": ["./test/setup.js"]
+    "require": [
+      "./test/setup.js"
+    ]
   },
   "devDependencies": {
     "@ava/babel": "1.0.1",
@@ -31,6 +33,7 @@
     "@babel/core": "7.10.3",
     "@babel/preset-env": "7.10.3",
     "ava": "3.10.1",
+    "jsdom": "16.3.0",
     "jsdom-global": "3.0.2",
     "lerna": "3.16.4",
     "nyc": "15.1.0"
