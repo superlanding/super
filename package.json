@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "nyc ava packages/**/*.test.js",
+    "lint": "eslint packages/*/*.js",
     "build": "lerna exec --parallel 'babel *.js --out-dir dist --config-file ../../.babelrc.json'"
   },
   "repository": {
