@@ -4,7 +4,7 @@
   "description": "A collection of utility libraries used by superlanding JS projects.",
   "main": "index.js",
   "scripts": {
-    "test": "nyc ava tests/**/*.test.js",
+    "test": "nyc ava packages/**/*.test.js",
     "build": "lerna exec --parallel 'babel *.js --out-dir dist --config-file ../../.babelrc.json'"
   },
   "repository": {
@@ -19,8 +19,11 @@
   "homepage": "https://github.com/superlanding/superjs#readme",
   "ava": {
     "babel": {
-      "compileAsTests": ["packages/**/*.js"]
-    }
+      "compileAsTests": [
+        "packages/**/*.js"
+      ]
+    },
+    "required": ["./test/setup.js"]
   },
   "devDependencies": {
     "@ava/babel": "1.0.1",
@@ -28,6 +31,7 @@
     "@babel/core": "7.10.3",
     "@babel/preset-env": "7.10.3",
     "ava": "3.10.1",
+    "jsdom-global": "3.0.2",
     "lerna": "3.16.4",
     "nyc": "15.1.0"
   }

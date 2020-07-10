@@ -1,5 +1,5 @@
-import { test } from '../utils'
-import commaSeparate from '../../packages/commaSeparate/commaSeparate.js'
+import { test } from '../../test/utils'
+import commaSeparate from './commaSeparate'
 
 test('commaSeparate', t => {
 

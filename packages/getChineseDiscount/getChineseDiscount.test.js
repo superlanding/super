@@ -1,4 +1,4 @@
-import { test } from '../utils'
+import { test } from '../../test/utils'
 import getChineseDiscount from '../../packages/getChineseDiscount/getChineseDiscount.js'
 
 test('getChineseDiscount', t => {
