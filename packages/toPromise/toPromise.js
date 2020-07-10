@@ -1,4 +1,4 @@
-const clearTimer = config => {
+export const clearTimer = config => {
   if (config.timer) {
     clearTimeout(config.timer)
   }
