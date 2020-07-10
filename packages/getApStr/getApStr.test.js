@@ -3,9 +3,9 @@ import getApStr from './getApStr'
 
 test('getApStr', t => {
   const res = getApStr({
-    qty: 1,         // initial base number
-    interval: 2,    // number to add each time
-    n: 3,           // add how many times
+    qty: 1,
+    interval: 2,
+    n: 3,
     separator: '; '
   })
 
@@ -13,4 +13,14 @@ test('getApStr', t => {
   // 3 + 2 -> 5
   // 5 + 2 -> 7
   t.deepEqual(res, '3; 5; 7')
+})
+
+test('getApStr without n and separator', t => {
+  const res = getApStr({
+    qty: 1,
+    interval: 2
+  })
+  // default n is 4
+  // separator is ,
+  t.deepEqual(res, '3, 5, 7, 9')
 })
