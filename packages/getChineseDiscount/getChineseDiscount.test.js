@@ -1,5 +1,5 @@
 import { test } from '../../test/utils'
-import getChineseDiscount from '../../packages/getChineseDiscount/getChineseDiscount.js'
+import getChineseDiscount from './getChineseDiscount'
 
 test('getChineseDiscount', t => {
   t.is(getChineseDiscount(1), '')
