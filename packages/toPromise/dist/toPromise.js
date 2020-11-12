@@ -35,7 +35,7 @@ var toPromise = function toPromise(store) {
               store.dispatch({
                 type: config.loading
               });
-            }, config.wait || 800);
+            }, config.wait || 300);
           }
 
           if (config.resolve) {
