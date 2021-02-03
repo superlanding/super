@@ -1,3 +1,3 @@
-export default function toInt(str) {
-  return parseInt(str, 10)
+export default function toInt(value, radix = 10) {
+  return parseInt(value, radix)
 }
