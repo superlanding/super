@@ -40,5 +40,6 @@
     "jsdom-global": "3.0.2",
     "lerna": "3.16.4",
     "nyc": "15.1.0"
-  }
+  },
+  "dependencies": {}
 }
