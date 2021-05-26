@@ -32,9 +32,9 @@ var toPromise = function toPromise(store) {
           if (config.loading) {
             config.timer = setTimeout(function () {
               config.timer = null;
-              store.dispatch({
+              store.dispatch(_objectSpread(_objectSpread({}, action), {}, {
                 type: config.loading
-              });
+              }));
             }, config.wait || 300);
           }
 
