@@ -18,7 +18,7 @@ const toPromise = store => next => {
         if (config.loading) {
           config.timer = setTimeout(() => {
             config.timer = null
-            store.dispatch({ type: config.loading })
+            store.dispatch({ ...action, type: config.loading })
           }, config.wait || 300)
         }
         if (config.resolve) {
