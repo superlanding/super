@@ -18,7 +18,11 @@ const toPromise = store => next => {
         if (config.loading) {
           config.timer = setTimeout(() => {
             config.timer = null
-            store.dispatch({ ...action, type: config.loading })
+
+            const rest = { ...action }
+            delete rest._id
+
+            store.dispatch({ ...rest, type: config.loading })
           }, config.wait || 300)
         }
         if (config.resolve) {
