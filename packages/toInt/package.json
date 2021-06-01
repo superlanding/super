@@ -1,6 +1,6 @@
 {
   "name": "@superlanding/toint",
-  "version": "0.0.29",
+  "version": "0.0.30",
   "description": "",
   "main": "dist/toInt.js",
   "scripts": {
