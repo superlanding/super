@@ -30,9 +30,13 @@ var toPromise = function toPromise(store) {
           var config = _objectSpread({}, action.async);
 
           if (config.loading) {
+            var props = _objectSpread({}, action);
+
+            delete props.async;
+            delete props._id;
             config.timer = setTimeout(function () {
               config.timer = null;
-              store.dispatch(_objectSpread(_objectSpread({}, action), {}, {
+              store.dispatch(_objectSpread(_objectSpread({}, props), {}, {
                 type: config.loading
               }));
             }, config.wait || 300);
