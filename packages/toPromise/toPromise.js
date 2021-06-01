@@ -16,9 +16,14 @@ const toPromise = store => next => {
       const promise = new Promise((resolve, reject) => {
         const config = { ...action.async }
         if (config.loading) {
+
+          const props = { ...action }
+          delete props.async
+          delete props._id
+
           config.timer = setTimeout(() => {
             config.timer = null
-            store.dispatch({ ...action, type: config.loading })
+            store.dispatch({ ...props, type: config.loading })
           }, config.wait || 300)
         }
         if (config.resolve) {
