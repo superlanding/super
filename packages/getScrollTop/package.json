@@ -1,6 +1,6 @@
 {
   "name": "@superlanding/getscrolltop",
-  "version": "0.0.32",
+  "version": "0.0.33",
   "description": "",
   "main": "dist/getScrollTop.js",
   "scripts": {
