@@ -11,4 +11,5 @@ test('commaSeparate', t => {
   // decimal point
   t.is(commaSeparate(0.123), '0.123')
   t.is(commaSeparate(1000.123), '1,000.123')
+  t.is(commaSeparate(123456789.1234567), '123,456,789.1234567')
 })
