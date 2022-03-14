@@ -6,5 +6,6 @@ Object.defineProperty(exports, "__esModule", {
 exports["default"] = commaSeparate;
 
 function commaSeparate(num) {
-  return String(num).replace(/\B(?<!\.\d*)(?=(\d{3})+(?!\d))/g, ',');
+  var values = String(num).split('.');
+  return values[0].replace(/.(?=(?:.{3})+$)/g, '$&,') + (values.length == 2 ? '.' + values[1] : '');
 }
